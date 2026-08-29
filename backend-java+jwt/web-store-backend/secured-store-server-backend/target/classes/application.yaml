@@ -17,7 +17,7 @@ spring:
       enabled: true
       path: /h2-console
 jwt:
-  secret: your_jwt_secret_key
+  secret: ${JWT_SECRET}
   expiration:  36000000 # Example: 10 hours in milliseconds
 #  expiration: 20000 # Example: 20 seconds
 
