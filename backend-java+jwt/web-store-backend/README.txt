@@ -1,3 +1,12 @@
+Configuration
+
+✔ The backend requires a JWT_SECRET environment variable.
+
+Example:
+
+JWT_SECRET=your-secret-here
+
+Configure the required database settings and JWT_SECRET, then run the Spring Boot application.
 
 שם האתר זה MAVIX : בפרויקט זה הקפדתי שה-Server יהיה הגורם המרכזי והבלעדי לבדיקת לוגיקה וחישובים.
 כל בקשה מה-Frontend נבדקת במלואה ב-Backend, וה-Frontend מציג אך ורק נתונים שמגיעים מה-Server לאחר אימות.
