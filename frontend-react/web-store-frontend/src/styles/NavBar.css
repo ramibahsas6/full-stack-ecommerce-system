@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #050505;
+  color: white;
+  border-bottom: 1px solid #333;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navbar-left, .navbar-center, .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon-box {
+  width: 28px;
+  height: 28px;
+  border: 1px solid gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-weight: bold;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: gold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  margin-left: 150px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.nav-link:hover {
+  color: gold;
+}
+
+.nav-link.active {
+  color: gold;
+  border-bottom: 2px solid gold;
+}
+
+.search-box {
+  display: flex;
+  background: #e7e2e2;
+  border-radius: 90px;
+  overflow: hidden;
+  border: 2px solid gold;
+}
+
+.search-input {
+  border: none;
+  background: white;
+  color: black;
+  padding: 6px 12px;
+}
+
+.search-btn {
+  border: none;
+  background: gold;
+  color: black;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+
+}
+
+.search-btn:hover {
+  background: #ffd94d;
+  color: black;
+}
+
+
+.welcome-user {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.logout-btn, .login-btn {
+  background: gold;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+.logout-btn:hover, .login-btn:hover {
+  background: #ffd94d;
+}
+
+  .delete-button {
+    margin-left: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 11px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+.orders-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;        
+}
+
+.orders-cart-icon {
+  color: #C9A227;  
+  font-size: 20px;
+}
+
+.orders-cart-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.orders-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background-color: red;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 5px;
+  min-width: 6px;
+  text-align: center;
+  line-height: 1.1;
+}
+/* #C9A227 */

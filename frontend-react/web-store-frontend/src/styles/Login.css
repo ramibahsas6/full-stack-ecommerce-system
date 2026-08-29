@@ -1,0 +1,19 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: #050505;
+}
+
+
+.login-page h2 {
+  color: #a7a401;
+  letter-spacing: 1.3px;
+  font-family: 'Poppins, sans-serif';
+  font-weight: 600;
+  margin: 1rem;
+  font-size: 2rem;
+}

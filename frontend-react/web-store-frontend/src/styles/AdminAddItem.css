@@ -1,0 +1,104 @@
+.formAddItem {
+  background: #878686ff;
+  width: 440px;
+  padding: 35px 35px;
+  margin: 40px auto;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255, 215, 0, 0.35); /* זהב עדין */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  transition: 0.3s ease;
+}
+
+.formAddItem:hover {
+  box-shadow: 0 15px 40px rgba(0,0,0,0.22);
+  border-color: rgba(255, 215, 0, 0.55);
+}
+
+/* --- INPUTS --- */
+.formAddItem input {
+  width: 100%;
+  padding: 13px 16px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  letter-spacing: 0.05em;
+  outline: none;
+  background: linear-gradient(90deg, #878686ff, #333);
+  transition: 0.25s ease;
+}
+
+.formAddItem input:focus {
+  border-color: #d4af37; /* זהב */
+  background: #878686ff;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+/* --- BUTTONS --- */
+.formAddItem button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  width: 108%;
+}
+
+
+.formAddItem button[type="submit"] {
+  background: linear-gradient(90deg, #111, #333);
+  color: white;
+  border: 1px solid #d4af37;
+}
+
+.formAddItem button[type="submit"]:hover {
+  background: linear-gradient(90deg, #000, #111);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.35);
+  color: #d4af37;
+}
+
+
+.formAddItem button[type="button"] {
+  background: linear-gradient(90deg, #000000, #333);
+  border: 1px solid #bbb;
+  color: white;
+}
+
+.formAddItem button[type="button"]:hover {
+  border-color: #d4af37;
+  color: #d4af37;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.formAddItem input::placeholder {
+  color: #cccbcb;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  font-size: 0.9rem;
+  opacity: 1;
+}
+
+.error-text {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.25rem;
+}
+
+
+@media (max-width: 520px) {
+  .formAddItem {
+    width: 90%;
+    padding: 25px;
+  }
+}

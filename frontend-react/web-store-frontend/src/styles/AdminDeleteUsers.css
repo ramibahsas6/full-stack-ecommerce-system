@@ -1,0 +1,134 @@
+/* --- HEADER --- */
+.admin-page h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.admin-page {
+  background: linear-gradient(90deg, #878686ff, #555); /* או פשוט #878686ff */
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255, 215, 0, 0.35);
+  margin: 40px auto;
+  width: 90%;
+  max-width: 600px;
+  color: white;
+}
+
+.user-item {
+  background-color: #333; /* רקע נפרד לכל משתמש */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* --- USER LIST --- */
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.user-item:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  border-color: rgba(212, 175, 55, 0.85);
+}
+
+.user-info span {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+/* --- ACTIONS --- */
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.actions a,
+.actions button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #d4af37;
+  cursor: pointer;
+  transition: 0.25s ease;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
+
+/* VIEW BUTTON */
+.actions a {
+  background: linear-gradient(90deg, #111, #333);
+  color: white;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  background: linear-gradient(90deg, #000, #111);
+  color: #d4af37;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.35);
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background: linear-gradient(90deg, #ff3333, #d32f2f);
+  color: white;
+  border: 1px solid #d4af37;
+}
+
+.delete-btn:hover {
+  background: linear-gradient(90deg, #d32f2f, #b22222);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.35);
+}
+
+h3 {
+  text-align: center;
+  color: #ffcc00;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #cccbcb;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .admin-page {
+    width: 95%;
+    padding: 25px;
+  }
+
+  .user-item {
+    padding: 14px;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .actions a,
+  .actions button {
+    width: 100%;
+  }
+}

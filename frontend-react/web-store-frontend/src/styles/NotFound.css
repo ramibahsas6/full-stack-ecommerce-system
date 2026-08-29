@@ -1,0 +1,31 @@
+.page-not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.page-not-found h1{
+    color: #2e64c8;
+    letter-spacing: 1.3px;
+    font-family: 'Poppins, sans-serif';
+    font-weight: 600;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.page-not-found button{
+    margin: 2rem;
+    padding: 0.85rem 1rem;
+    border-radius: 14px;
+    border: none;
+    background: #c9a227;
+    color: #0b0b0b;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}

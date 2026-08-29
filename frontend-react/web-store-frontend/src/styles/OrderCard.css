@@ -1,0 +1,50 @@
+.cardStyle {
+  margin-top: 1px;
+  background-color: #121212;
+  border-radius: 10px;
+  padding: 16px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #252525;
+}
+
+.cardStyleTemp {
+  margin-top: 1px;
+  min-height: 145px; 
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #666565;
+}
+
+.orderIdStyle  {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.metaStyle  {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #B0B0B0;
+}
+
+.totalStyle  {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #D4AF37;
+}
+
+.viewButtonStyle {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #D4AF37;
+  background: transparent;
+  color: #D4AF37;
+  cursor: pointer;
+  font-size: 13px;
+}
